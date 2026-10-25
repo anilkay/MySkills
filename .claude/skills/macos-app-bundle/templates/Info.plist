@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- The macOS app bundle's description; package-app.sh fills in the version. -->
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>My App</string>
+    <key>CFBundleDisplayName</key>
+    <string>My App</string>
+    <key>CFBundleIdentifier</key>
+    <string>io.github.USER.MyApp</string>
+    <key>CFBundleExecutable</key>
+    <string>MyApp</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>0.0.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <!-- Only the permissions the app uses; the text is shown in macOS's prompt. -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>My App records audio from the microphone.</string>
+</dict>
+</plist>
